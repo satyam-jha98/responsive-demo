@@ -1,0 +1,210 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#title
+{
+
+    background-color:#E94560;
+    
+}
+
+#cta
+{
+    background-color:#E94560;
+    text-align: center;
+    padding: 7% 30%;
+}
+.container-fluid
+{
+    
+    padding: 0 15% 0 15%;
+}
+
+.brand
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h1
+{
+    margin: 15% 0 10% 0;
+    color: #fff;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 3rem;
+    color: #fff;
+}
+
+h3{
+    color:black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+}
+
+p
+{
+    color: gray;
+    font-size: 1rem;
+}
+
+em{
+    color: #fff;
+}
+.title-img
+{
+    width: 50%;
+    margin-top: 15%;
+    transform: rotate(20deg);
+    margin-left: 35%;
+    position: static;
+    
+}
+
+#features
+{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    
+
+  
+}
+
+.icon
+{
+    color:#FD841F;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #FF4949;
+}
+
+.feature-box
+{
+text-align: center;
+padding: 5%;
+}
+
+#section-color
+{
+    background-color: #FD841F;
+}
+
+#testimonials
+{
+   
+    text-align: center;
+    
+}
+
+.carousel-item
+{
+    padding: 7% 15%;
+}
+
+.test-img
+{
+    width: 10%;
+    border-radius: 100%;
+    margin-top: 3%;
+    
+    
+}
+
+.press-img
+{
+    width: 20%;
+    margin: 0 2%;
+    
+}
+
+#press
+{
+    text-align: center;
+    padding:0 15% 7% 15%;
+}
+
+.carousel-indicators
+{
+
+    padding-top: 30%;
+}
+
+#pricing
+{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.h2-pricing
+{
+    color: black;
+}
+
+.mastiff-para
+{
+    line-height: 0.85rem;
+}
+
+.cta-heading
+{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 5%;
+    
+}
+
+#footer
+{
+    background-color: #fff;
+    padding: 3% 15%;
+    text-align: center;
+}
+
+.footer-link
+{
+    color: #2C3333;
+    margin: 0 0.75%;
+    
+}
+
+.footer-link:hover
+{
+    color:gray;
+}
+
+.copyright
+{
+    margin-top: 1.5%;
+    font-size: 0.75rem;
+}
+
+
+@media(max-width:992px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-img
+    {
+        position: static;
+        transform: rotate(0);
+        margin: auto;
+        padding-top: 10%;
+    }
+}
+
+
+
+
